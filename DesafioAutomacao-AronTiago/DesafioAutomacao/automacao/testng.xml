@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+
+   
+   <test name="ChromeTesteFormularioEnvioCompleto">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioEnvioCompleto">
+         </class>
+      </classes>
+   </test>
+   
+   <test name="ChromeTesteFormularioCamposObrigatorios">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioCamposObrigatorios">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioEsportesMaisDeUmaRespostaPorColuna">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioEsportesMaisDeUmaRespostaPorColuna">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioEsportesLinhaSemOpcaoSelecionada">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioEsportesLinhaSemOpcaoSelecionada">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioSanduichLinhaSemRespostaSelecionada">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioSanduichLinhaSemRespostaSelecionada">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioDataInvalida">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioDataInvalida">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioHoraInvalida">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioHoraInvalida">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioSobremesaOutro">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioSobremesaOutro">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioEmailInvalido">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioEmailInvalido">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioNomeIncompleto">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioNomeIncompleto">
+         </class>
+      </classes>
+   </test>
+
+   <test name="ChromeTesteFormularioSobremesaOutroSemDescrever">
+   <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="automacao.TesteFormularioSobremesaOutroSemDescrever">
+         </class>
+      </classes>
+   </test>
+
+   <test name="FFTesteFormularioEnvioCompleto">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioEnvioCompleto">
+         </class>
+      </classes>
+   </test>
+   
+   <test name="FFTesteFormularioCamposObrigatorios">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioCamposObrigatorios">
+         </class>
+      </classes>
+   </test>
+   
+   <test name="FFTesteFormularioEsportesMaisDeUmaRespostaPorColuna">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioEsportesMaisDeUmaRespostaPorColuna">
+         </class>
+      </classes>
+   </test>
+   
+   <test name="FFTesteFormularioEsportesLinhaSemOpcaoSelecionada">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioEsportesLinhaSemOpcaoSelecionada">
+         </class>
+      </classes>
+   </test>
+   
+   <test name="FFTesteFormularioSanduichLinhaSemRespostaSelecionada">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioSanduichLinhaSemRespostaSelecionada">
+         </class>
+      </classes>
+   </test>   
+   
+   <test name="FFTesteFormularioDataInvalida">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioDataInvalida">
+         </class>
+      </classes>
+   </test>
+   
+   <test name="FFTesteFormularioHoraInvalida">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioHoraInvalida">
+         </class>
+      </classes>
+   </test>
+
+   <test name="FFTesteFormularioSobremesaOutro">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioSobremesaOutro">
+         </class>
+      </classes>
+   </test>
+
+   <test name="FFTesteFormularioEmailInvalido">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioEmailInvalido">
+         </class>
+      </classes>
+   </test>
+
+   <test name="FFTesteFormularioNomeIncompleto">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioNomeIncompleto">
+         </class>
+      </classes>
+   </test>
+
+   <test name="FFTesteFormularioSobremesaOutroSemDescrever">
+   <parameter name="browser" value="FF" />
+      <classes>
+         <class name="automacao.TesteFormularioSobremesaOutroSemDescrever">
+         </class>
+      </classes>
+   </test>
+  
+</suite>
